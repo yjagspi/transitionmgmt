@@ -1,0 +1,33 @@
+<div [@routerTransition]>
+    <h2 class="text-muted">Administration <small>UI Configuration for a Project</small></h2>
+    
+    
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-header">Tabset</div>
+            <div class="card-body">
+                <ngb-tabset>
+                    <ngb-tab title="Tab">
+                        <ng-template ngbTabContent>
+                            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth
+                            master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh
+                            dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum
+                            iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                        </ng-template>
+                    </ngb-tab>
+                    <ngb-tab title="Block">
+                        <ng-template ngbTabContent>
+                            <form-builder [form]="form" (change)="onChange($event)"></form-builder>
+                            <!-- <div class="well jsonviewer">
+                              <pre id="json"><code class="language-json" #json></code></pre>
+                            </div> -->
+                        </ng-template>
+                    </ngb-tab>
+                  
+                </ngb-tabset>
+            </div>
+        </div>
+    </div>
+    <hr>
+    </div>
+  
